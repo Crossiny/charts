@@ -70,6 +70,11 @@ questions:
                                         schema:
                                           type: boolean
                                           default: false
+                                      - variable: SERVERIP
+                                        label: "Server IP"
+                                        schema:
+                                          type: string
+                                          default: "0.0.0.0"
 # Include{containerBasic}
 # Include{containerAdvanced}
 # Include{containerConfig}
